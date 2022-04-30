@@ -4,6 +4,8 @@ from address import Address
 
 
 class Person:
+    """Representation of a Person entity"""
+
     def __init__(self, first, last, dob, phone, address) -> None:
         self.first_name = first
         self.last_name = last
